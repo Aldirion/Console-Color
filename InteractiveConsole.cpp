@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include "ConsoleSet.h"
+#include "InteractiveConsole.h"
 
 void set_color(ConsoleColor txt, ConsoleColor background)
 {

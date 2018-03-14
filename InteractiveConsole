@@ -1,7 +1,7 @@
 #pragma once
 
-#ifndef _CONSOLECOLORCURSOR_H_
-#define _CONSOLECOLORCURSOR_H_
+#ifndef _INTERACTIVECONSOLE_H_
+#define _INTERACTIVECONSOLE_H_
 #endif
 
 enum ConsoleColor
