@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include "InteractiveConsole.h"
+#include <InteractiveConsole.h>
 #define BUFF_SIZE 100
 
 void set_color(ConsoleColor txt, ConsoleColor background)
@@ -102,7 +102,7 @@ B:
 	if (exit_m == false)
 		goto A;
 }
-char * time()
+char * _time()
 {
 	time_t t;
 	time(&t);
