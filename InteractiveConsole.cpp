@@ -112,10 +112,10 @@ char * _time()
 		char* out = new char[255];
 		strcpy(out, "");
 		T = strtok(T, " ");
-		(strcmp(T, "Mon") == 0) ? (strcat(out, "Понедельник")) : (strcmp(T, "Tue") == 0) ? (strcat(out, "Вторник")) : (strcmp(T, "Wed") == 0) ? (strcat(out, "Среда")) : (strcmp(T, "Thu") == 0) ? (strcat(out, "Четверг")) : (strcmp(T, "Fri") == 0) ? (strcat(out, "Пятница")) : (strcmp(T, "Sat") == 0) ? (strcat(out, "Суббота")) : (strcat(out, "Воскресенье"));
+		(strcmp(T, "Mon") == 0) ? (strcat(out, "РџРЅ")) : (strcmp(T, "Tue") == 0) ? (strcat(out, "Р’С‚")) : (strcmp(T, "Wed") == 0) ? (strcat(out, "РЎСЂ")) : (strcmp(T, "Thu") == 0) ? (strcat(out, "Р§С‚")) : (strcmp(T, "Fri") == 0) ? (strcat(out, "РџС‚")) : (strcmp(T, "Sat") == 0) ? (strcat(out, "РЎР±")) : (strcat(out, "Р’СЃ"));
 		T = strtok(NULL, " ");
 		strcat(out, " ");
-		(strcmp(T, "Jan") == 0) ? (strcat(out, "Январь")) : (strcmp(T, "Feb") == 0) ? (strcat(out, "Февраль")) : (strcmp(T, "Mar") == 0) ? (strcat(out, "Март")) : (strcmp(T, "Apr") == 0) ? (strcat(out, "Апрель")) : (strcmp(T, "May") == 0) ? (strcat(out, "Май")) : (strcmp(T, "Jun") == 0) ? (strcat(out, "Июнь")) : (strcmp(T, "Jul") == 0) ? (strcat(out, "Июль")) : (strcmp(T, "Aug") == 0) ? (strcat(out, "Август")) : (strcmp(T, "Sep") == 0) ? (strcat(out, "Сентябрь")) : (strcmp(T, "Oct") == 0) ? (strcat(out, "Октябрь")) : (strcat(out, "Декабрь"));
+		(strcmp(T, "Jan") == 0) ? (strcat(out, "РЇРЅРІР°СЂСЊ")) : (strcmp(T, "Feb") == 0) ? (strcat(out, "Р¤РµРІСЂР°Р»СЊ")) : (strcmp(T, "Mar") == 0) ? (strcat(out, "РњР°СЂС‚")) : (strcmp(T, "Apr") == 0) ? (strcat(out, "РђРїСЂРµР»СЊ")) : (strcmp(T, "May") == 0) ? (strcat(out, "РњР°Р№")) : (strcmp(T, "Jun") == 0) ? (strcat(out, "РСЋРЅСЊ")) : (strcmp(T, "Jul") == 0) ? (strcat(out, "РСЋР»СЊ")) : (strcmp(T, "Aug") == 0) ? (strcat(out, "РђРІРіСѓСЃС‚")) : (strcmp(T, "Sep") == 0) ? (strcat(out, "РЎРµРЅС‚СЏР±СЂСЊ")) : (strcmp(T, "Oct") == 0) ? (strcat(out, "РћРєС‚СЏР±СЂСЊ")) :(strcmp(T, "Nov")==0)? (strcat(out, "РќРѕСЏР±СЂСЊ")):(strcat(out, "Р”РµРєР°Р±СЂСЊ"));
 		T = strtok(NULL, " ");
 		strcat(out, " ");
 		strcat(out, T);
