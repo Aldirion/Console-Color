@@ -27,4 +27,4 @@ using namespace std;
 void set_color(ConsoleColor txt, ConsoleColor background);
 void show_cursor(bool a);
 char * _time();
-int menu_interface(char** Menu, int size);
+int menu_interface(const char** Menu, int size);
