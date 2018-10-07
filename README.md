@@ -1,17 +1,28 @@
-# InteractiveConsole
+
+InteractiveConsole
+
 Библиотека с функциями для изменения стандартных цветов вывода в консоль(текста и фона), а так же для установления видимости курсора
 
-ShowCursor() принимает в качестве параметра булеву переменную:<br>
-FALSE скрывает мигающий курсор в консоли. 
-TRUE снова делает курсор видимым 
+$
 
-SetColor() принимает 2 параметра:цвет текста и цвет фона.
+ ShowCursor(bool) принимает в качестве параметра булеву переменную:
+FALSE скрывает мигающий курсор в консоли. TRUE снова делает курсор видимым
 
-menu_interface() принимает массив указателей на си-строки(char**) и количество строк(int)<br>
+$
+
+ SetColor(ConsoleColour txt, ConsoleColour bg) принимает 2 параметра:цвет текста и цвет фона. ConsoleColour - enum 
+
+$
+
+ menu_interface(const char **, int) принимает массив указателей на константные си-строки(const char**) и количество строк(int)
 Возвращает целое число - порядковый номер строки(индекс +1)
 
-time() не принимает параметров и возвращает си-строку<br>
+$
+
+ time() не принимает параметров и возвращает си-строку
 Время на русском языке, если подключена соответствующая локаль и на английском в любом другом случае
 
-Доступные цвета:<br>
-Black, Blue, Green, Cyan, Red, Magneta, Brown, LightGray, DarkGray, LightBlue, LightGreen, LightCyan, LightRed, LightMagneta, Yellow, White
+$
+
+Доступные цвета:
+Black(0), Blue(1), Green(2), Cyan(3), Red(4), Magneta(5), Brown(6), LightGray(7), DarkGray(8), LightBlue(9), LightGreen(10), LightCyan(11), LightRed(12), LightMagneta(13), Yellow(14), White(15)
