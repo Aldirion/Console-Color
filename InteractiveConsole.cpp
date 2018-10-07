@@ -15,7 +15,7 @@ void show_cursor(bool a)
 	cci.bVisible = a;
 	SetConsoleCursorInfo(hStdOut, &cci);
 }
-int menu_interface(char** Menu, int size)
+int menu_interface(const char** Menu, int size)
 {
 	int action(0);
 	int i(0);
