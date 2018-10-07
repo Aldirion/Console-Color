@@ -5,12 +5,12 @@ InteractiveConsole
 
 $
 
- ShowCursor(bool) принимает в качестве параметра булеву переменную:
+ show_cursor(bool) принимает в качестве параметра булеву переменную:
 FALSE скрывает мигающий курсор в консоли. TRUE снова делает курсор видимым
 
 $
 
- SetColor(ConsoleColour txt, ConsoleColour bg) принимает 2 параметра:цвет текста и цвет фона. ConsoleColour - enum 
+ set_color(ConsoleColour txt, ConsoleColour bg) принимает 2 параметра:цвет текста и цвет фона. ConsoleColour - enum 
 
 $
 
